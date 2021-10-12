@@ -1,6 +1,27 @@
-# Op-Giveaways-Bot-with-Buttons
-A INSANE GIVEAWAY BOT 
-[GiveawayBotButtons-2.zip](https://github.com/cbhub6224/Op-Giveaways-Bot-with-Buttons/files/7328572/GiveawayBotButtons-2.zip)
+# GiveawayBotButtons
 
-![0001-8895879558_20210929_153232_0000](https://user-images.githubusercontent.com/92211369/136928810-7edd7e70-ef84-4ff1-8275-b89e8948ee8e.png)
+[![wakatime](https://wakatime.com/badge/github/BritishBenji/GiveawayBotButtons.svg)](https://wakatime.com/badge/github/BritishBenji/GiveawayBotButtons)
 
+## A Discord Giveaway Bot that uses Discord's component buttons to join the giveaway
+
+This bot was originally built to make it easier for users that are new to discord to join giveaways. They don't need to know what "reacting" is, all they need to know is "push big blue button"
+
+### To run this bot:
+```py
+Windows:
+py -m pip install -r requirements.txt
+
+Linux:
+python3 -m pip install -r requirements.txt
+```
+
+Then copy the config file and name it `config.json`
+
+Fill in the relevant information
+
+Invite the bot, run `main.py` and you're good to go
+(Users must have permissions to ban users to create a giveaway, however this can be changed in `Giveaways.py` should you wish to do so.)
+
+
+
+Thanks to [cursorr/GiveawayBot](https://github.com/Cursorr/GiveawayBot) for the base code
